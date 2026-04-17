@@ -18,6 +18,8 @@ app.get('/json', function(req, res) {
     res.json({message: message});
 });
 
+module.exports = app;
+
 
 
 
